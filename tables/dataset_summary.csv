@@ -1,0 +1,9 @@
+metric,value
+effective_start_date,2002-03-27
+effective_end_date,2026-03-13
+total_observations,6105
+main_train_observations,4775
+main_test_observations,1330
+robust_train_observations,4518
+robust_test_observations,1587
+number_of_features,12
