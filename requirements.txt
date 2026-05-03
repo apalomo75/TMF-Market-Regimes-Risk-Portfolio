@@ -8,3 +8,4 @@ scikit-learn
 arch
 jupyter
 notebook
+seaborn
