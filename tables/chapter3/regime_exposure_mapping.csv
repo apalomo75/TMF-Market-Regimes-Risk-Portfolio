@@ -1,0 +1,4 @@
+regime,economic_label,risk_order,target_exposure
+0,low_risk,1,1.0
+2,medium_risk,2,0.75
+1,high_risk,3,0.25
