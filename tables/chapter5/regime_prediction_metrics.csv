@@ -1,4 +1,4 @@
-model,accuracy,balanced_accuracy
-Logistic Regression MAIN,0.9107669616519174,0.7766126580292078
-Random Forest MAIN,0.9019174041297935,0.762526140681821
-XGBoost MAIN,0.9122418879056047,0.7801485019577585
+Model,Accuracy,Balanced Accuracy,Stress Recall
+Logistic Regression,0.911,0.777,0.545
+Random Forest,0.902,0.763,0.515
+XGBoost,0.91,0.779,0.515
