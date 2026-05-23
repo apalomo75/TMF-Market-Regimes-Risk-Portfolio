@@ -1,0 +1,3 @@
+sample,strategy,cost_rate,total_turnover,average_daily_turnover,annualized_turnover,exposure_changes_per_year,n_exposure_changes,n_observations
+ROBUST,ML Hard Classification,0.001,40.628562802881106,0.025203823078710365,6.351363415835012,16.142857142857142,113,1612
+ROBUST,ML Probability-Weighted,0.001,43.95265054437874,0.027265912248373908,6.871009886590225,230.14285714285714,1611,1612

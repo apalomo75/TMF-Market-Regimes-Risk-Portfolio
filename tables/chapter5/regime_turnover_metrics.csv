@@ -1,0 +1,2 @@
+sample,strategy,cost_rate,total_turnover,average_daily_turnover,annualized_turnover,exposure_changes_per_year,n_exposure_changes,n_observations
+MAIN,Regime-based,0.001,32.77000292018519,0.02416666882019557,6.090000542689284,14.166666666666666,85,1356

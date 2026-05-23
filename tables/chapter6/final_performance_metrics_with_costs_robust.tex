@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Final performance comparison with transaction costs, ROBUST sample.}
+\label{tab:final_performance_metrics_with_costs_robust}
+\begin{tabular}{llrrrrrrrrr}
+\toprule
+sample & strategy & total_return & daily_volatility & VaR_95 & CVaR_95 & max_drawdown & sharpe_ratio & return_cvar_ratio & cost_rate & total_transaction_cost \\
+\midrule
+ROBUST & Buy & Hold & 0.858016 & 0.012733 & -0.017651 & -0.030660 & -0.394343 & 0.479133 & 27.985083 & 0.000000 & 0.000000 \\
+ROBUST & Regime-based net of costs & 0.533846 & 0.008766 & -0.014513 & -0.020849 & -0.278465 & 0.480292 & 25.604976 & 0.001000 & 0.041477 \\
+ROBUST & ML Hard net of costs & 0.598342 & 0.008727 & -0.014517 & -0.020800 & -0.244821 & 0.529189 & 28.766591 & 0.001000 & 0.040629 \\
+ROBUST & ML Probability-Weighted net of costs & 0.527932 & 0.008713 & -0.014585 & -0.020791 & -0.269037 & 0.479121 & 25.392616 & 0.001000 & 0.043953 \\
+\bottomrule
+\end{tabular}
+\end{table}

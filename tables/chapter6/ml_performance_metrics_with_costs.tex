@@ -1,0 +1,15 @@
+\begin{table}
+\caption{ML strategy performance metrics with transaction costs, MAIN sample.}
+\label{tab:ml_performance_metrics_with_costs_main}
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+strategy & total_return & mean_daily_return & daily_volatility & VaR_95 & CVaR_95 & max_drawdown & sharpe_ratio & return_cvar_ratio & cost_rate & total_transaction_cost \\
+\midrule
+Buy & Hold & 1.223232 & 0.000590 & 0.010258 & -0.015877 & -0.023772 & -0.217647 & 0.912472 & 51.456265 & 0.000000 & 0.000000 \\
+ML Hard gross & 0.832011 & 0.000447 & 0.008172 & -0.013261 & -0.019126 & -0.218747 & 0.867896 & 43.501084 & 0.000000 & 0.000000 \\
+ML Hard net of costs & 0.769859 & 0.000421 & 0.008173 & -0.013395 & -0.019162 & -0.224531 & 0.818349 & 40.176598 & 0.001000 & 0.034514 \\
+ML Probability-Weighted gross & 0.784678 & 0.000427 & 0.008119 & -0.013420 & -0.019014 & -0.217642 & 0.835824 & 41.268288 & 0.000000 & 0.000000 \\
+ML Probability-Weighted net of costs & 0.716125 & 0.000399 & 0.008120 & -0.013464 & -0.019052 & -0.226590 & 0.779234 & 37.587725 & 0.001000 & 0.039169 \\
+\bottomrule
+\end{tabular}
+\end{table}

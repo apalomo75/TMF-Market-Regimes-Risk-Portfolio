@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Final performance comparison with transaction costs, MAIN sample.}
+\label{tab:final_performance_metrics_with_costs_main}
+\begin{tabular}{llrrrrrrrrr}
+\toprule
+sample & strategy & total_return & daily_volatility & VaR_95 & CVaR_95 & max_drawdown & sharpe_ratio & return_cvar_ratio & cost_rate & total_transaction_cost \\
+\midrule
+MAIN & Buy & Hold & 1.223232 & 0.010258 & -0.015877 & -0.023772 & -0.217647 & 0.912472 & 51.456265 & 0.000000 & 0.000000 \\
+MAIN & Regime-based net of costs & 0.792724 & 0.008162 & -0.013391 & -0.019069 & -0.216125 & 0.837303 & 41.570884 & 0.001000 & 0.032770 \\
+MAIN & ML Hard net of costs & 0.769859 & 0.008173 & -0.013395 & -0.019162 & -0.224531 & 0.818349 & 40.176598 & 0.001000 & 0.034514 \\
+MAIN & ML Probability-Weighted net of costs & 0.716125 & 0.008120 & -0.013464 & -0.019052 & -0.226590 & 0.779234 & 37.587725 & 0.001000 & 0.039169 \\
+\bottomrule
+\end{tabular}
+\end{table}
