@@ -1,4 +1,4 @@
-regime,economic_label,risk_order,target_exposure
-0,low_risk,1,1.0
-2,medium_risk,2,0.75
-1,high_risk,3,0.25
+regime,economic_label,risk_order,target_exposure,mean_cvar_95_60d,cvar_severity_abs,cvar_low_abs,defensive_alpha,methodology
+0,low_risk,1,1.0,-0.0184036239537792,0.0184036239537792,0.0184036239537792,1.0,CVaR_train_abs_ratio
+2,medium_risk,2,0.5905564268559998,-0.0311631930783588,0.0311631930783588,0.0184036239537792,1.0,CVaR_train_abs_ratio
+1,high_risk,3,0.3555517372976248,-0.0517607482209373,0.0517607482209373,0.0184036239537792,1.0,CVaR_train_abs_ratio

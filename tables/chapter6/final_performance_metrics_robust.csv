@@ -1,5 +1,5 @@
 Strategy,Total Return,Daily Volatility,VaR 95%,CVaR 95%,Max Drawdown
-Buy & Hold,0.8456,0.0127,-0.0176,-0.0307,-0.3943
-Regime-based,0.6892,0.0091,-0.0148,-0.0214,-0.2484
-ML hard classification,0.6151,0.0091,-0.0149,-0.0218,-0.2616
-ML probability-weighted,0.6392,0.009,-0.0146,-0.0217,-0.251
+Buy & Hold,0.858,0.0127,-0.0177,-0.0307,-0.3943
+Regime-based,0.6053,0.0088,-0.0144,-0.0208,-0.2623
+ML hard classification,0.6646,0.0087,-0.0144,-0.0208,-0.2306
+ML probability-weighted,0.5966,0.0087,-0.0146,-0.0208,-0.2531
