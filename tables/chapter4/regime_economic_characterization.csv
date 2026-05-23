@@ -1,0 +1,4 @@
+regime,economic_label,frequency,representative_dates,relevant_historical_episodes,mean_ewma_vol,mean_cvar_95_60d,mean_drawdown,economic_interpretation
+0,low_risk,38.8130451270383,2006-03-22; 2026-01-14; 2006-03-21,Inflation / monetary tightening 2022,0.0081264419380736,-0.0184036239537792,-0.3062931933924969,Low volatility and comparatively mild expected tail losses; normal market conditions.
+2,medium_risk,48.95714827455442,2014-08-07; 2010-08-25; 2001-08-17,Global financial crisis 2008; Ukraine invasion 2022; Inflation / monetary tightening 2022,0.0142457093297247,-0.0311631930783588,-0.36170215906312586,Intermediate volatility and tail risk; transitional or uncertain market conditions.
+1,high_risk,12.22980659840728,2010-05-10; 2020-03-12; 2016-06-24,Global financial crisis 2008; COVID market shock; Ukraine invasion 2022,0.0258163235392316,-0.0517607482209373,-0.452333229814317,"Elevated volatility, severe tail losses and deeper drawdowns; defensive market state."
